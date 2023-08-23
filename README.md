@@ -2,6 +2,8 @@ This was a hackathon project I did for Neudesic. It's a simple support chatbot u
 
 The basic concept is simple. We utilize Freshservice to query our support documentation, feed the top (x) results into our chat history as "context" or "memories," and we allow OpenAI to generate a response.
 
+Further customizations would include filtering context, a vector database for further modeling and search capabilities, and a plugin system utilizing "external" functions.
+
 
 ### Azure OpenAI/Freshservice Development Setup
 - Install docker desktop
